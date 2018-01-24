@@ -9,9 +9,14 @@
 </head>
 <body>
 
+<%@include file="header.jsp" %>
+
+<br>
+<br>
+<br>
 
 ERROR  : ${message}
 
-
+<%@include file="footer.jsp" %>
 </body>
 </html>

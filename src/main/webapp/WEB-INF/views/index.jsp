@@ -1,3 +1,4 @@
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
 <meta charset="utf-8">
@@ -23,22 +24,26 @@
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
+<br>
+<br>
+<br>
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="111.jpg" alt="shopping1" style="width:100%;">
+      <img src="./resources/m1.jpg" alt="shopping1" style="width:100%;" style="height:50%;"/>
+       
       </div>
 
       <div class="item">
-        <img src="22.jpg" alt="Shopping2" style="width:100%;">
+       <img src="./resources/m2.jpg" alt="shopping2" style="width:100%;"style="height:50%;"/>
       </div>
     
       <div class="item">
-        <img src="33.jpg" alt="Shopping3" style="width:100%;">
+       <img src="./resources/m5.jpg" alt="shopping3" style="width:100%;"style="height:50%;"/>
       </div>
       
        <div class="item">
-        <img src="44.jpg" alt="Shopping4" style="width:100%;">
+        <img src="./resources/m4.jpg" alt="shopping4" style="width:100%;"style="height:50%;"/>
       </div>
     </div>
 

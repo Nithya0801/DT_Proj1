@@ -32,7 +32,7 @@
 <ul class="nav navbar-nav navbar-left">
 
 <li><a href="index" class="active">Home</a></li>
-<li><a href="#">Register</a></li>
+<li><a href="register">Register</a></li>
 <li><a href="signin">Signin</a></li>
 
 </ul>
